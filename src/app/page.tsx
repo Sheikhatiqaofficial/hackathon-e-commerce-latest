@@ -1,3 +1,4 @@
+
 import Ceramic from "./components/Ceramic";
 import Feature from "./components/Feature";
 import Herosection from "./components/Herosection";
@@ -8,7 +9,7 @@ import Topnav from "./components/Topnav";
 
 
 
-export default function Home() {
+export default async function Home() {
   return (
     <div>
       <Topnav />

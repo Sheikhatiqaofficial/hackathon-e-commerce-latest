@@ -72,6 +72,15 @@ const Topnav = () => {
           Plant Pots
         </a>
 
+ {/* Link 1 */}
+ <a
+          href={"/products"}
+          className="w-[70px] h-[22px] text-[#726E8D] font-satoshi text-[16px] font-normal leading-[21.6px] hover:text-[#2A254B] hover:underline hover:underline-offset-4 hover:text-shadow-md transition-all duration-300"
+          style={{ fontFamily: "Satoshi" }}
+        >
+          Products
+        </a>
+
         {/* Link 2 */}
         <a
           href="#"
