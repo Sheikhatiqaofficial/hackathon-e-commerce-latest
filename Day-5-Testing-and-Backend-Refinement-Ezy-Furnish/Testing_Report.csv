@@ -1,0 +1,28 @@
+Test Case ID,Test Case Description,,Expected Result,Actual Result,,
+,,Test Steps,,,Status,Assigned To
+,,,,,,
+TC_001,Check product listing ,1. Go to the homepage.,"All products should be displayed correctly with name, image, price, etc.",Passed,High,No issues 
+,,2. Check if all products are listed.,,,,
+,,,,,,
+TC_002,Validate product filter functionality,"1. Apply a filter (e.g., category).",The products related to the search term should appear.,Passed,Medium,No issues
+,,2. Check if the products are filtered correctly.,,,,
+TC_003,Validate search functionality,1. Type a product name into the search bar.,The products related to the search term should appear.,Passed,High,No issues
+,,2. Press enter.,,,,
+TC_004,Add product to cart ,1. Select a product.,The product should be added to the cart with quantity 1,Passed,High,No issues
+,,"2. Click on ""Add to Cart"" button.",,,,
+TC_005,Remove product from cart,1. Go to the cart.,The product should be removed from the cart. ,Passed,High,No issues
+,,"2. Click on ""Remove"" button for a product.",,,,
+TC_006,Update product quantity in cart,1. Go to the cart.,The quantity should be updated in the cart and the total should adjust accordingly.,Passed,High,No issues
+,,2. Change quantity for a product.,,,,
+,,3. Click update.,,,,
+TC_007,Test dynamic routing to product page ,1. Click on a product from the listing.,The product detail page should load based on the correct slug.,Passed,High,No issues
+,,2. Check if the individual product page loads.,,,,
+TC_008,Check fallback message for empty cart,1. Add a product to the cart.,"A fallback message like ""Your cart is empty"" should be displayed.",Passed,Medium,No issues
+,,2. Remove all products.,,,,
+,,3. Go to the cart page.,,,,
+TC_009,Error handling for failed product load ,"1. Simulate API failure (e.g., disconnect internet).","Display an error message like ""Unable to load products. Please try again later.""",Passed,High,No issues
+,,2. Try to load products.,,,,
+TC_010,Test form submission for contact page,1. Fill out the contact form.,The form should show a success message after submission.,Passed,Medium,No issues
+,,2. Submit the form.,,,,
+,,,,,,
+,,,,,,
