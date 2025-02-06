@@ -1,0 +1,24 @@
+﻿Test Case ID,Description,Steps,Expected Result,Actual Result,Status,
+,,,,,,
+,,,,,,Remarks
+TC001,Validate Product Listing,1. Open the homepage,Products should be displayed on the page.,Products are displayed correctly on the page.,,
+,,2. Verify that products are displayed,,,,
+,,,,,Passed,
+,,,,,,No issues found.
+TC002,Test Cart Functionality,1. Add an item to the cart,Cart should show the correct product added and the right quantity,Cart updates correctly with added items.,Passed,Works as expected.
+,,2. Verify that the cart updates with the correct item and quantity,,,,
+TC003,Test Cart Item Removal,1. Add an item to the cart,Cart should be empty after removing the item.,Cart is empty after item removal.,Passed,No issues found.
+,,2. Remove the item from the cart,,,,
+,,,,,,
+TC004,Test API Error Handling,1. Disconnect the API,"A fallback message should display, e.g., ""Unable to load products.""","""Unable to load products"" message displayed as expected.",Passed,Error handled gracefully.
+,,2. Refresh the page,,,,
+TC005,Check Search Functionality,1. Use the search bar to search for a product,Search results should display relevant products based on search input.,Correct products are displayed for the search query.,Passed,Search functionality works fine.
+,,2. Verify that correct results are displayed,,,,
+TC006,Test Product Detail Page,1. Click on a product from the listing,Product details should load without errors,Product detail page loads correctly without errors.,Passed,Works as expected.
+,,2. Verify that the product detail page loads correctly,,,,
+TC007,Test Checkout Functionality,1. Add an item to the cart,Checkout process should be seamless and allow completion,Checkout process works as expected without errors.,Passed,Checkout works fine.
+,,2. Proceed to checkout,,,,
+,,3. Verify that the checkout process is smooth,,,,
+TC008,Test Responsiveness,1. Resize the browser window,Layout should adjust properly on different screen sizes,Layout adjusts correctly for both desktop and mobile.,Failed,Verified responsiveness of mobile and desktop only.
+,,2. Verify that the layout adjusts correctly for mobile and desktop views,,But there is some more work on responsiveness of tablets and other screens.,,
+,,,,,,
